@@ -79,7 +79,9 @@ body {
   height: 60vh;
   background-image: url("../images/960x0.jpg");
   background-position: center top;
+  background-size: contain;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .navTrigger {
@@ -394,7 +396,6 @@ body {
 }
 
 .skill-logo:hover {
-  border-color: #00e676 5px;
   transform: scale(1.3);
   transition: transform 1.2s linear;
   transform: rotate(360deg);
@@ -412,8 +413,8 @@ body {
 
 :root {
   --bg: #fdfdfd;
-  --highlight1: #ed4264;
-  --highlight2: #ffedbc;
+  --highlight1: #00e676;
+  --highlight2: #666;
   --color: #1a1e24;
   --font-number: Montserrat, Roboto, Helvetica, Arial, sans-serif;
   --font-head: "Space Mono", Consolas, Menlo, Monaco, "Courier New", monospace;
@@ -479,7 +480,8 @@ body {
   color: #2c2c2c;
   font-size: 150px;
   letter-spacing: 0.05em;
-  text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px #00e676;
+  text-shadow: 3px 3px 0px #d5d5d5, 4px 4px 0px #00e676;
+  text-transform: uppercase;
 }
 
 #return-to-top {
