@@ -347,6 +347,7 @@ body {
   overflow: hidden;
   transform: translateY(-50%);
   color: #00e676;
+  pointer-events: none;
 }
 
 .line-2 {
@@ -361,6 +362,7 @@ body {
   overflow: hidden;
   transform: translateY(-50%);
   color: rgba(255, 255, 255, 0.75);
+  pointer-events: none;
 }
 
 .anim-typewriter {
